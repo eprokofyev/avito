@@ -1,0 +1,24 @@
+name: avito
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  linter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v1
+        with:
+          version: v1.26
+          args: -c .golangci.yml
+
+  build:
+    runs-on: ubuntu-latest
+    needs: linter
+    steps:
+      - uses: actions/checkout@v1
+      - name: building
+        run: go mod tidy && CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o main -i cmd/main.go
