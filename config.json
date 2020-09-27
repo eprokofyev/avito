@@ -1,0 +1,10 @@
+{
+    "db": {
+    "host":     "database",
+    "port":     "5432",
+    "database": "db_balance",
+    "user":     "postgres",
+    "password": "password",
+    "connections": 10
+  }
+}
