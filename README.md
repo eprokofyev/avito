@@ -1,5 +1,5 @@
 # Avito
-[![Actions Status](https://github.com/eprokofyev/avito/workflows/avito%20build/badge.svg?branch=master)](https://github.com/eprokofyev/avito/actions)
+[![Actions Status](https://github.com/eprokofyev/avito/workflows/avito/badge.svg?branch=master)](https://github.com/eprokofyev/avito/actions)
 
 
 ## Запуск
