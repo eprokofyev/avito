@@ -1,5 +1,7 @@
 # Avito
-[![Actions Status](https://github.com/eprokofyev/testTask/workflows/avitobuild/badge.svg?branch=master)](https://github.com/eprokofyev/avito/actions)
+
+[![Actions Status](https://github.com/eprokofyev/avito/workflows/avito/badge.svg?branch=master)](https://github.com/eprokofyev/avito/actions)
+
 
 
 ## Запуск
@@ -102,4 +104,8 @@ sender_id - id пользователя, у которого списывают�
 
 * Запрос: GET http://127.0.0.1:8080/api/list/30
 
+<<<<<<< HEAD
     Ответ: {"status":200,"body":{"list":[]}}
+=======
+Ответ: {"status":200,"body":{"list":[]}}
+>>>>>>> 717ce30a51ed917287d935c12b3fdf3f01ec6d66
