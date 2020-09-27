@@ -1,6 +1,6 @@
 # Avito
 
-[![Actions Status](https://github.com/eprokofyev/avito/workflows/avito/badge.svg?branch=master)](https://github.com/eprokofyev/avito/actions)
+[![Actions Status](https://github.com/eprokofyev/avito/workflows/build%20avito/badge.svg?branch=master)](https://github.com/eprokofyev/avito/actions)
 
 
 
