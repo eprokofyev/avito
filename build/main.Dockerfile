@@ -18,4 +18,4 @@ WORKDIR /app
 COPY --from=builder app/main .
 COPY --from=builder app/config.json .
 
-CMD ./main
+CMD sleep 10 && ./main
