@@ -57,7 +57,7 @@ sender_id - id пользователя, у которого списывают�
 
     Ответ: {"status":409,"body":{"message":"Insufficient funds to write off"}}
 
-*Запрос: POST http://127.0.0.1:8080/api/transfer
+* Запрос: POST http://127.0.0.1:8080/api/transfer
 {"sender_id":11,"recipient_id":11, "amount":20, "message":"for tea"}
 
     Ответ: {"status":406,"body":{"message":"sender_id and recipient_id can't be zero at the same request"}}
@@ -104,8 +104,4 @@ sender_id - id пользователя, у которого списывают�
 
 * Запрос: GET http://127.0.0.1:8080/api/list/30
 
-<<<<<<< HEAD
     Ответ: {"status":200,"body":{"list":[]}}
-=======
-Ответ: {"status":200,"body":{"list":[]}}
->>>>>>> 717ce30a51ed917287d935c12b3fdf3f01ec6d66
